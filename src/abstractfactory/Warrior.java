@@ -1,11 +1,11 @@
 package abstractfactory;
 
 public class Warrior {
-    private Sword sword;
-    private Armor armor;
-    private Spear spear;
+    private final Sword sword;
+    private final Armor armor;
+    private final Spear spear;
 
-    // Композиция
+
     public Warrior(BlacksmithFactory factory) {
         this.sword = factory.createSword();
         this.armor = factory.createArmor();

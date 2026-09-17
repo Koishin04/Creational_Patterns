@@ -16,3 +16,6 @@ assignment2-design-patterns/
   │
   ├── Main.java              # Runs the program
   └── README.md              # Project information
+
+
+  javac Main.java abstractfactory/*.java factorymethod/*.java
